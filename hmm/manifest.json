@@ -1,0 +1,49 @@
+{
+  "name": "Pesez Farm Management",
+  "short_name": "PesezFarm",
+  "description": "Poultry farm operations dashboard for egg production, feed tracking, health records, and mortality monitoring.",
+  "start_url": "/hmm/dashboard.php",
+  "scope": "/hmm/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f8fafc",
+  "theme_color": "#0A8754",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/hmm/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/hmm/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Record Harvest",
+      "short_name": "Harvest",
+      "url": "/hmm/eggs.php",
+      "description": "Log today's egg collection",
+      "icons": [{ "src": "/hmm/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Feed Log",
+      "short_name": "Feed",
+      "url": "/hmm/feed.php",
+      "description": "Record feed usage",
+      "icons": [{ "src": "/hmm/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "System Logs",
+      "short_name": "Logs",
+      "url": "/hmm/logs.php",
+      "description": "View all operational logs",
+      "icons": [{ "src": "/hmm/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
